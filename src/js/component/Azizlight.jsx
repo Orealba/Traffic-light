@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../styles/Azizlight.css";
 
-const Azizlight()=> {
+const Azizlight=()=> {
 		return <div className="Aziz-light"></div>;
 	};
 
