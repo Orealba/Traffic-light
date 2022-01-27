@@ -4,10 +4,10 @@ import ReactDOM from "react-dom";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
-
+import Azizlight from "./component/Azizlight.jsx";
 import Estructura from "./component/Estructura.jsx";
 import Cable from "./component/Cable.jsx";
-import Azizlight from "./component/Azizlight.jsx";
+
 //import your own components
 import Home from "./view/home.jsx";
 

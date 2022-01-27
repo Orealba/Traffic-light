@@ -15,13 +15,17 @@ function Azizlight() {
 	}
 
 	return (
-		<ul className="Aziz-light">
-			{lights.map((isActive, index) => (
-				<li key={index} onClick={() => setActiveLight(isActive, index)}>
-					<span className={isActive ? "on" : "off"} />
-				</li>
-			))}
-		</ul>
+		<div>
+			<ul className="Aziz-light">
+				{lights.map((isActive, index) => (
+					<li
+						key={index}
+						onClick={() => setActiveLight(isActive, index)}>
+						<span className={isActive ? "on" : "off"} />
+					</li>
+				))}
+			</ul>
+		</div>
 	);
 }
 
