@@ -1,10 +1,12 @@
 .fondo{
-    background: black;
-    display: block;
-  width: 130px;
-  height: 300px;
- margin-top: 5%;
- margin-left: 43%;
+border: 1px solid black;
+background: rgb(243, 239, 5);
+display: block;
+width: 130px;
+height: 300px;  
+margin-left: 42%;
+border-radius: 5%;
+
 
 }
 

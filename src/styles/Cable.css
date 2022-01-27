@@ -1,4 +1,9 @@
-.cable{
-    background: rgb(143, 185, 27);
+.cablecito{
+    background: rgb(243, 239, 5);
     display: block;
+    width: 20px;
+    height: 200px;
+   margin-left: 45%;
+   border: 1px solid black;
+
    }

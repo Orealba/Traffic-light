@@ -5,8 +5,8 @@ import Cable from "../component/Cable.jsx";
 const Home = () => {
 	return (
 		<>
-			<Estructura />
 			<Cable />
+			<Estructura />
 		</>
 	);
 };

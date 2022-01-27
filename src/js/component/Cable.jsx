@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../../styles/Cable.css";
 
-const Tubo = () => {
-	return <div className="cable"></div>;
+const Cable = () => {
+	return <div className="cablecito"></div>;
 };
 
 export default Cable;
