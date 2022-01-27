@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "../../styles/Azizlight.css";
 
-const Estructura = () => {
-	return <div className="fondo"></div>;
-};
+
+
+
+
+/*
 function Azizlight() {
 	const [lights, setLights] = useState([false, false, false]);
 
@@ -18,18 +20,17 @@ function Azizlight() {
 	}
 
 	return (
-		<div>
-			<ul className="Aziz-light">
+		<div className="Aziz-light">
 				{lights.map((isActive, index) => (
-					<li
+				
 						key={index}
 						onClick={() => setActiveLight(isActive, index)}>
 						<span className={isActive ? "on" : "off"} />
-					</li>
+					
 				))}
-			</ul>
+			
 		</div>
 	);
 }
-
+*/
 export default Azizlight;
