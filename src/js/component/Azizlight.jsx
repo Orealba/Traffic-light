@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "../../styles/Azizlight.css";
 
+const Estructura = () => {
+	return <div className="fondo"></div>;
+};
 function Azizlight() {
 	const [lights, setLights] = useState([false, false, false]);
 
