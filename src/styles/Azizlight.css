@@ -1,0 +1,41 @@
+
+
+.Aziz-light{
+    display: table;
+    list-style: none;
+    margin-left: 41%;
+  
+  }
+
+  .Aziz-light li span {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+  
+  .Aziz-light li span.on {
+    opacity: 1;
+  }
+  
+  .Aziz-lightli span.off {
+    opacity: 0.4;
+  }
+  
+  .Aziz-light li:nth-of-type(1) span {
+    background-color: red;
+    border: 1px solid black;
+  }
+  
+  .Aziz-light li:nth-of-type(2) span {
+    background-color: yellow;
+    border: 1px solid black;
+  
+  }
+  
+  .Aziz-light li:nth-of-type(3) span {
+    background-color: green;
+    border: 1px solid black;
+    
+  }
+  
