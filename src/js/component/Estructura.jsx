@@ -1,11 +1,8 @@
-import { Linter } from "eslint";
-import "../styles/Estructura.css";
-
+import React, { useState } from "react";
+import "../../styles/Estructura.css";
 
 const Estructura = () => {
-	return (
+	return <div className="fondo"></div>;
+};
 
-	<div className="fondo">
-    </div>      
-    )
- }
+export default Estructura;

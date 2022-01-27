@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import Estructura from "../Component../Estructura.jsx";
+import Estructura from "../component/Estructura.jsx";
+import Cable from "../component/Cable.jsx";
 
 const Home = () => {
 	return (
 		<>
-		<Estructura />
-		
-		
+			<Estructura />
+			<Cable />
 		</>
+	);
+};
 
 export default Home;

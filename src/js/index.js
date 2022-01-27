@@ -5,9 +5,10 @@ import ReactDOM from "react-dom";
 // include your styles into the webpack bundle
 import "../styles/index.css";
 
-import "./component/Estructura.jsx"
+import Estructura from "./component/Estructura.jsx";
+import Cable from "./component/Cable.jsx";
 //import your own components
-import Home from "./component/home.jsx";
+import Home from "./view/home.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
