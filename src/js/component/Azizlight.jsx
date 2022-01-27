@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import "../../styles/Azizlight.css";
 
-
-
-
+const Azizlight()=> {
+		return <div className="Aziz-light"></div>;
+	};
 
 /*
 function Azizlight() {
