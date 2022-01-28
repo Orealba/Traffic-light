@@ -7,7 +7,6 @@ import "../styles/index.css";
 import Azizlight from "./component/Azizlight.jsx";
 import Estructura from "./component/Estructura.jsx";
 import Cable from "./component/Cable.jsx";
-import Semaforo from "./component/Semaforo.jsx";
 
 //import your own components
 import Home from "./view/home.jsx";
